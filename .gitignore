@@ -1,0 +1,101 @@
+# =========================
+# Reference:
+# https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+# =========================
+
+# =========================
+# Windows
+# =========================
+
+# Windows image caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+#VS Folder
+.vs/
+
+#JetBrains
+.idea/
+
+#BitTorrent Sync
+.sync/
+
+# Mac
+.DS_Store
+
+# =========================
+# Visual Studio
+# =========================
+
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vsscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.sbr
+*.sdf
+*.opensdf
+~*
+*.tmp
+*.vbw
+*.sln.docstates
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# Build
+obj/
+ipch/
+[Dd]ebug*/
+[Rr]elease*/
+[Bb]in/
+[Oo]bj/
+
+# Resharper
+_ReSharper*/
+
+# Test
+[Tt]est[Rr]esult*
+
+# Bridgewater
+/[Bb]ridge[Ww]ater/
+
+# NuGet
+packages/
+!.nuget/NuGet.exe
+
+# Exclude certificates
+*.pfx
+!*TemporaryKey.pfx
+*.p12
+*.p7b
+*.p7r
+*.spc
+*.csr
+*.cer
+*.crt
+*.der
+*.crl
+*.sst
+*.stl
+*.pen
+*.key
